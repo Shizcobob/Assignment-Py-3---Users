@@ -29,11 +29,8 @@ Anna = User("Anna", "Last", "Hello@goodbye.com", 33)
 Bob = User("Bob", "Last", "emaily@ohno.com", 55)
 Cindy = User("Cindy", "Last", "emaily@ohno.com", 43)
 
-Anna.spendPoints(50)
-Bob.enroll()
-Bob.spendPoints(80)
-Anna.display_info()
-Bob.display_info()
+Anna.spendPoints(50).display_info()
+Bob.enroll().spendPoints(80)
 Cindy.display_info()
 
 
